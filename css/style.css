@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.min-h-50 {
+    min-height: 50px;
+}
+
+.top {
+    color: white;
+
+}
+
+.bottom {
+    color: white;
+    min-height: 100px;
+}
+
+.col-20 {
+    flex: 0 0 auto;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.left,
+.right {
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
